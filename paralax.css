@@ -1,0 +1,101 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-size: 200%;
+    margin: 5%;
+    color: aliceblue;
+}
+
+h2{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: antiquewhite; */
+    color: aliceblue;
+    padding: 8px 24px;
+    border-radius: 5%;
+}
+
+p{
+    color: aliceblue;
+    font-size: 150%;
+    margin: 7%;
+}
+
+/* .Universe_Head{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite; 
+     color: aliceblue; 
+    padding: 8px 24px;
+    border-radius: 5%;
+    background-image: url(Intro\ \(2\).jpg);
+    background-attachment: fixed;
+    background-size: cover;
+} */
+
+.Intro{
+    background-image: url(Intro\ \(2\).jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.Intro_Content{
+    background-color: black;
+}
+
+.Galaxy{
+    background-image: url(Galaxy.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.Galaxy_Content{
+    background-color: black;
+}
+
+.Earth{
+    background-image: url(Earth.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.Earth_Content{
+    background-color: black;
+}
+
+.Jupiter{
+    background-image: url(Jupiter.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.Jupiter_Content{
+    background-color: black;
+}
+
+.end{
+    background-image: url(end.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
